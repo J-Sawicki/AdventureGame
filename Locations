@@ -30,7 +30,7 @@ public class Locations implements Map<Integer, Location> {
         catch (IOException io) {
             System.out.println("IO Exception");
         } catch (ClassNotFoundException e) {
-            System.out.println("Chujnia, ClassNotFoundExepction " + e.getMessage());
+            System.out.println("ClassNotFoundExepction " + e.getMessage());
         }
 
     }
